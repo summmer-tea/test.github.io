@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
-  
+  <title>贝吉塔</title>
+  <subtitle>喜欢挑战</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2016-12-01T03:22:43.520Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://gaojiyong.github.io/"/>
+  <updated>2016-12-01T05:56:48.000Z</updated>
+  <id>https://gaojiyong.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Jiyong Gao</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>My New Post</title>
+    <link href="https://gaojiyong.github.io/2016/12/01/My-New-Post/"/>
+    <id>https://gaojiyong.github.io/2016/12/01/My-New-Post/</id>
+    <published>2016-12-01T05:56:47.000Z</published>
+    <updated>2016-12-01T05:56:48.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/12/01/hello-world/"/>
-    <id>http://yoursite.com/2016/12/01/hello-world/</id>
+    <link href="https://gaojiyong.github.io/2016/12/01/hello-world/"/>
+    <id>https://gaojiyong.github.io/2016/12/01/hello-world/</id>
     <published>2016-12-01T03:22:43.520Z</published>
     <updated>2016-12-01T03:22:43.520Z</updated>
     

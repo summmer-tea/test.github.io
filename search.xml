@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>夏午茶</title>
-  <subtitle>的码后生活</subtitle>
-  <link href="/atom.xml" rel="self"/>
+<search>
   
-  <link href="https://gaojiyong.github.io/"/>
-  <updated>2016-12-13T08:23:38.264Z</updated>
-  <id>https://gaojiyong.github.io/</id>
   
-  <author>
-    <name>Jiyong Gao</name>
     
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>markdown demo</title>
-    <link href="https://gaojiyong.github.io/2016/12/13/markdown-demo/"/>
-    <id>https://gaojiyong.github.io/2016/12/13/markdown-demo/</id>
-    <published>2016-12-13T07:46:24.000Z</published>
-    <updated>2016-12-13T08:23:38.264Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="欢迎使用-Cmd-Markdown-编辑阅读器"><a href="#欢迎使用-Cmd-Markdown-编辑阅读器" class="headerlink" title="欢迎使用 Cmd Markdown 编辑阅读器"></a>欢迎使用 Cmd Markdown 编辑阅读器</h1><hr>
+    <entry>
+      <title><![CDATA[markdown demo]]></title>
+      <url>https://gaojiyong.github.io/2016/12/13/markdown-demo/</url>
+      <content type="html"><![CDATA[<h1 id="欢迎使用-Cmd-Markdown-编辑阅读器"><a href="#欢迎使用-Cmd-Markdown-编辑阅读器" class="headerlink" title="欢迎使用 Cmd Markdown 编辑阅读器"></a>欢迎使用 Cmd Markdown 编辑阅读器</h1><hr>
 <p>我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，<strong>Cmd Markdown</strong> 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：</p>
 <blockquote>
 <ul>
@@ -107,16 +91,8 @@
 <p>[^LaTeX]: 支持 <strong>LaTeX</strong> 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="external">MathJax</a> 参考更多使用方法。</p>
 <p>[^code]: 代码高亮功能支持包括 Java, Python, JavaScript 在内的，<strong>四十一</strong>种主流编程语言。</p>
 ]]></content>
+    </entry>
     
-    <summary type="html">
-    
-      &lt;h1 id=&quot;欢迎使用-Cmd-Markdown-编辑阅读器&quot;&gt;&lt;a href=&quot;#欢迎使用-Cmd-Markdown-编辑阅读器&quot; class=&quot;headerlink&quot; title=&quot;欢迎使用 Cmd Markdown 编辑阅读器&quot;&gt;&lt;/a&gt;欢迎使用 Cmd Markdown
-    
-    </summary>
-    
-    
-      <category term="Markdown" scheme="https://gaojiyong.github.io/tags/Markdown/"/>
-    
-  </entry>
   
-</feed>
+  
+</search>

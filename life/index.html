@@ -1,10 +1,11 @@
 
-  <!DOCTYPE HTML>
+  
+    <!DOCTYPE HTML>
 <html >
 <head>
   <meta charset="UTF-8">
   
-    <title>Archives: 2016 | 夏午茶</title>
+    <title>life | 夏午茶</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Jiyong Gao">
@@ -50,9 +51,9 @@ var _hmt = _hmt || [];
 </script>
 </head>
 
-    <body>
-      <header>
-        <div>
+      <body>
+        <header>
+          <div>
 		
 			<div id="textlogo">
 				<h1 class="site-name"><a href="/" title="夏午茶">夏午茶</a></h1>
@@ -83,47 +84,49 @@ var _hmt = _hmt || [];
 				</ul>
 			</nav>	
 </div>
-      </header>
-      <div id="container" class="clearfix">
-        
-
-<div class="archive-title" >
-  <h2 class="archive-icon">2016</h2>
-  
-  <div class="archiveslist archive-float clearfix">
-   <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a><span class="archive-list-count">1</span></li></ul>
- </div>
-  
-</div>
-<div id="main" class="archive-part clearfix">
-  <div id="archive-page">
-
-  <section class="post" itemscope itemprop="blogPost">
-  <article>
-    <h1 itemprop="name">
-      
-        <a href="/2016/12/13/markdown-demo/" title="markdown demo" itemprop="url">
-      
-        markdown demo
-      </a>
-    </h1>
+        </header>
+        <div id="container" class="clearfix">
+          <div id="main" class="page" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
     
-    <p class="article-more-link">
-      <time datetime="2016-12-13T07:46:24.000Z" itemprop="datePublished">2016-12-13</time>
-      
-          <a href="/2016/12/13/markdown-demo/">阅读更多&raquo;</a>
-      
-    </p>
+      <a href="/life/index.html" title="life" itemprop="url">life</a>
+  </h1>
+  <p class="article-time">
+    <time datetime="2016-12-13T08:07:28.000Z" itemprop="datePublished">2016-12-13</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		  
+	</div>
+		<footer class="article-footer clearfix">
 
-  </article>
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="https://gaojiyong.github.io/life/index.html" data-title="life | 夏午茶" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+	
+<section class="comment">
+	
+	<div class="ds-thread"></div>
+	
 </section>
 
 
-  </div>
-</div>
-
-      </div>
-    <footer><div id="footer" >
+</div>  
+        </div>
+        <footer><div id="footer" >
 	<div class="copyright">
 		<span>Powered by <a href="">Hexo</a> and theme by 
 		<a href="https://github.com/gaojiyong">xiawucha</a>.</span>
@@ -133,7 +136,7 @@ var _hmt = _hmt || [];
 	<div>
 </div>
 </footer>
-    <script src="/js/jquery-2.1.0.min.js"></script>
+        <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   //back to top
@@ -209,8 +212,69 @@ $(document).ready(function(){
 </script>
 
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
 
 
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"xiawucha"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';    //change to ds.src = '/js/embed.js'; to add useragent for duoshuo
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
 
 <script type="text/javascript">
   function footerPosition() {
@@ -227,5 +291,6 @@ $(document).ready(function(){
 </script>
 
 
-    </body>
-   </html>
+      </body>
+     </html>
+     

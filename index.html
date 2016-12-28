@@ -28,6 +28,10 @@
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     
   
+  <link href="http://cdn.bootcss.com/highlight.js/8.2/styles/railscasts.min.css" rel="stylesheet">
+  <script src="http://cdn.bootcss.com/highlight.js/8.2/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
 
     <link rel="stylesheet" href="/css/style.css">
     <script>
@@ -85,11 +89,6 @@
 						<li><a href="http://gaojy.blog.51cto.com/">旧版Blog</a></li>
 					
 					<li>
-					
-						<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
-						<label>Search</label>
-						<input type="text" id="st-search-input" maxlength="20" placeholder="Search" />
-						</form>
 					
 					</li>
                 <!--<li><div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div></li>-->
@@ -212,6 +211,23 @@
   <div class="rsspart">
 	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
 </div>
+
+  <div class="linkslist">
+  <p class="asidetitle">Links</p>
+    <ul>
+      <li><a href="http://yangjian.me" target="_blank" title="YangJian">Alimon's Blog</a></li>
+      <li><a href="http://zespia.tw/hexo" target="_blank" title="Hexo">Hexo</a></li>
+    </ul>
+</div>
+
+  
+  <div class="tagcloudlist">
+    <p class="asidetitle">Tag Cloud</p>
+    <div class="tagcloudlist clearfix">
+       <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a>
+    </div>
+  </div>
+
 
 </aside>
 </div>

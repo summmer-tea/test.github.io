@@ -9,9 +9,7 @@
     
     <meta name="author" content="Jiyong Gao">
     
-    <meta name="description" content="分库分表 常见问题标签（空格分隔）： 分库 分表 
-
-在谈论数据库架构和数据库优化的时候，我们经常会听到“分库分表”、“分片”、“Sharding”…这样的关键词。让人感到高兴的是，这些朋友所服务的公司业务量正在（或者即将面临）高速增长，技术方面也面临着一些挑战。让人感到担忧的是，他们系统真的就需要">
+    <meta name="description" content="harding”…这样的关键词。让人感到高兴的是，这些朋友所服务的公司业务量正在（或者即将面临）高速增长，技术方面也面临着一些挑战。让人感到担忧的是，他们系统真的就需要“分库分表”了吗？“分库分表”有那么容易实践吗？为此，笔者整理了分库分表中可能遇到的一些问题，并结合以往经验介绍了对应的解决思路和建">
     
     
     
@@ -116,12 +114,10 @@
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title"></strong>
-		<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#分库分表-常见问题"><span class="toc-number">1.</span> <span class="toc-text">分库分表 常见问题</span></a></li></ol>
+		
 		</div>
 		
-		<h1 id="分库分表-常见问题"><a href="#分库分表-常见问题" class="headerlink" title="分库分表 常见问题"></a>分库分表 常见问题</h1><p>标签（空格分隔）： 分库 分表 </p>
-<hr>
-<p>在谈论数据库架构和数据库优化的时候，我们经常会听到“分库分表”、“分片”、“Sharding”…这样的关键词。让人感到高兴的是，这些朋友所服务的公司业务量正在（或者即将面临）高速增长，技术方面也面临着一些挑战。让人感到担忧的是，他们系统真的就需要“分库分表”了吗？“分库分表”有那么容易实践吗？为此，笔者整理了分库分表中可能遇到的一些问题，并结合以往经验介绍了对应的解决思路和建议。</p>
+		<p>harding”…这样的关键词。让人感到高兴的是，这些朋友所服务的公司业务量正在（或者即将面临）高速增长，技术方面也面临着一些挑战。让人感到担忧的是，他们系统真的就需要“分库分表”了吗？“分库分表”有那么容易实践吗？为此，笔者整理了分库分表中可能遇到的一些问题，并结合以往经验介绍了对应的解决思路和建议。</p>
 <blockquote>
 <ul>
 <li>垂直分表</li>
@@ -212,6 +208,7 @@
 <p><strong>3. 上面举例的都太简单了，我们的后台报表系统中join的表都有n个了， 分库后该怎么查？</strong></p>
 <p>有很多朋友跟我提过类似的问题。其实互联网的业务系统中，本来就应该尽量避免join的，如果有多个join的，要么是设计不合理，要么是技术选型有误。请自行科普下OLAP和OLTP，报表类的系统在传统BI时代都是通过OLAP数据仓库去实现的（现在则更多是借助离线分析、流式计算等手段实现），而不该向上面描述的那样直接在业务库中执行大量join和统计。</p>
 <p>由于篇幅关系，下篇中我们再继续细聊“水平分库分表”相关的话题。</p>
+<p>转载：<a href="http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;mid=2659598135&amp;idx=1&amp;sn=2f1daf51d92b9c5ed06d9422fdd19d49&amp;scene=0#" target="_blank" rel="external">http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&amp;mid=2659598135&amp;idx=1&amp;sn=2f1daf51d92b9c5ed06d9422fdd19d49&amp;scene=0#</a></p>
   
 	</div>
 		<footer class="article-footer clearfix">
